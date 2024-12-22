@@ -107,10 +107,10 @@ In general, to run ABACUS using a single process you need to change directory to
 main script:
 
     cd ABACUS_ROOT/trunk
-    python abacus.py [TESTBENCH_FOLDER] [design_file_to_be_approxamted] min_accuracy_threshold(0-100)
+    python abacus.py [design_files_to_be_approximated] [TESTBENCH_FOLDER] min_accuracy_threshold(0-100)
 
 Note: there may be error if other shell is used.
-
+Also, the design files should be present in `TESTBENCH_FOLDER/Original`
 
 To run with arbitrary input verilog files (MODIFY THIS):
 
